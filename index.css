@@ -1,0 +1,297 @@
+body{
+    background-color: rgba(128, 128, 128, 0.447);
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+        flex-direction: column;
+  
+}
+nav{
+   
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav span{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: -10%;
+    
+}
+nav ul li{
+    padding-left: 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav button{
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
+    border: none;
+}
+ h1{
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 70px;
+}
+.h1{
+    position: relative;
+    top: -232px;
+    left: 27%;
+}
+ h1 span{
+    color: gray;
+}
+ img{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ div{
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.circ1{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 69%;
+    top: 29%;
+    background-color: rgb(234, 82, 35);
+   
+}
+.circ2{
+    background-color: gainsboro;
+    position: absolute;
+    left: 32%;
+    top: 28%;
+    color:  rgb(234, 82, 35);
+    
+}
+.circ3{
+    background-color: rgb(234, 82, 35);
+    
+    position: absolute;
+    left: 35%;
+    top: 28%;
+    color:  gainsboro;
+    
+}
+.circ4{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(207, 167, 23);
+    position: relative;
+    top: -70px;
+    left: 59%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (max-width:426px){
+    body{
+       
+    }
+    nav{
+        border-radius: 6px;
+        height: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul{
+       
+        display: none;
+    }
+    nav button{
+        font-size: 5px;
+        width: 50px;
+        height:20px;
+        border-radius: 2px;
+        position: relative;
+        /* left: -20px; */
+    }
+    h1{
+        font-size: 30px;
+    }
+    .h1{
+        position: relative;
+        top: 20%;
+        left: 1px;
+    }
+    img{
+        position: relative;
+        top: -30%;
+        left: 25%;
+        width: 50%;
+    }
+    div{
+        width: 8%;
+        height: 5%;
+        margin-top: -15%;
+        margin-left: -20%;
+    }
+    .circ1{
+        position: relative;
+       top: -90px;
+      left: 42%;
+
+    }
+    .circ2{
+      
+        position: absolute;
+        left: 38%;
+        top: 30%;
+        
+       
+        
+    }
+    .circ3{        
+        position: absolute;
+        left: 43%;
+        top: 30%;
+     
+        font-size:15px;
+    }
+    .circ4{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 35px;
+        left: 45%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media all and (min-width:426px) and (max-width:769px){
+    img{
+       position: absolute;
+       top: 100%;
+       left: 40%;
+    }
+    .h1{
+       margin-left: -50%;
+      margin-top: 18%;
+        
+    }
+    .circ1{
+        position:absolute;
+        top: 98%;
+        left: 38%;
+    }
+    .circ2,.circ3{
+        margin-left: -15%;
+        margin-top: 3%;
+    }
+    .circ2{
+       position: absolute;
+       left: 30%;
+    }
+    .circ4{
+        position: relative;
+        left: 68%;
+    }
+   
+    
+    
+}
+@media all and (min-width:770px) and (max-width:1025px){
+    img{
+        position:absolute;
+        top: 100%;
+        left: 40%;
+    }
+    .h1{
+        margin-left: -50%;
+       margin-top: 15%;
+         
+     }
+     .circ1{
+         position:absolute;
+         top: 98%;
+         left: 38%;
+     }
+     .circ2,.circ3{
+         margin-left: -8%;
+         margin-top: 3%;
+     }
+     .circ4{
+         position: relative;
+         left: 63%;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar{
+    background-color:black !important;
+    border-radius: 12px;
+    position: relative;
+    top: 8px;
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: bold;
+}
+.navbar ul{
+    position: relative;
+   left: 15%;
+    background-color:rgba(128, 128, 128, 0.445);
+   border-radius: 8px;
+   opacity: .7;
+}
+.navbar ul li a{
+    color: white !important;
+}
+.navbar button{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 13px;
+    width: 100px;
+}
+@media screen and (max-width:470px) {
+    .navbar{
+        background-color: rgb(6, 51, 51) !important;
+        
+    }
+    .navbar-brand{
+        color: brown !important;
+    }
+} */
